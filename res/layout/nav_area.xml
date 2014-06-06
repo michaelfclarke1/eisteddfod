@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#55999999"
+
+    android:gravity="bottom|center|clip_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_height="60dp"
+        android:src="@drawable/lessons" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_height="60dp"
+        android:src="@drawable/practice" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_gravity="fill_vertical"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/settings" />
+
+</LinearLayout>
